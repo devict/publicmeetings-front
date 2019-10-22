@@ -136,6 +136,7 @@ ul#all-tags li {
  */
 .banner {
   position: relative;
+  background-image: url(images/manhattan-407703_1920.jpg);
   /*overflow: hidden; */
 }
 .banner-slide {
@@ -167,8 +168,8 @@ a.banner-link {
   border-radius: 6px;
   font-size: 0.3em;
   font-weight: bold;
-  color: #fff;
-  border: 1px solid #fff;
+  color: #f2a56b;
+  border: 1px solid #f2a56b;
   width: 10em;
   text-align: center;
   transition: all 0.3s;
@@ -245,9 +246,6 @@ a.banner-link {
   padding-top: 5px;
   padding-bottom: 5px;
   height: auto;
-}
-.navbar-nav {
-  font-size: 0.9em;
 }
 
 .title-header {
