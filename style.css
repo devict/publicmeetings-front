@@ -5,20 +5,33 @@ html {
   font-size: 16px;
 }
 body {
-    background:url("/images/cream_pixels.png") top center repeat #FFF;
-    font-family: 'Hind', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: #D3D3CB;
+  background: url("images/cream_pixels.png") top center repeat #fff;
+  font-family: "Hind", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #d3d3cb;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
   margin-bottom: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Oswald', sans-serif;
-  font-weight:normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -27,67 +40,101 @@ h1 a,
 h2 a,
 h3 a,
 h4 a {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
-h1 a:link, h1 a:visited, h1 a:active,
-h2 a:link, h2 a:visited, h2 a:active,
-h3 a:link, h3 a:visited, h3 a:active,
-h4 a:link, h4 a:visited, h4 a:active {
+h1 a:link,
+h1 a:visited,
+h1 a:active,
+h2 a:link,
+h2 a:visited,
+h2 a:active,
+h3 a:link,
+h3 a:visited,
+h3 a:active,
+h4 a:link,
+h4 a:visited,
+h4 a:active {
   color: #ffffff;
 }
 
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover {
   color: #888;
 }
 
-
-a:link, a:visited {
+a:link,
+a:visited {
   color: #ee802b;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
   color: #84481a;
 }
 
-a.btn:link, a.btn:visited {color: #ffffff;}
-
-a.btn-default:link, a.btn-default:visited {color: #ee802b;}
-
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    background-color: #ee802b;
-    color: white;
+a.btn:link,
+a.btn:visited {
+  color: #ffffff;
 }
 
-.btn-primary {background: #004358; border: 0px;}
-.btn-primary:hover {background: #006180;}
+a.btn-default:link,
+a.btn-default:visited {
+  color: #ee802b;
+}
 
-.btn-success {background: #1F8A70; border: 0px; }
-.btn-success:hover {background: #1cab88;}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #ee802b;
+  color: white;
+}
 
-.btn-warning {background: #ee802b;}
+.btn-primary {
+  background: #004358;
+  border: 0px;
+}
+.btn-primary:hover {
+  background: #006180;
+}
 
-.btn .fa {padding-right: 12px;}
+.btn-success {
+  background: #1f8a70;
+  border: 0px;
+}
+.btn-success:hover {
+  background: #1cab88;
+}
 
-.videos .col-md-3 {min-height: 280px;}
+.btn-warning {
+  background: #ee802b;
+}
+
+.btn .fa {
+  padding-right: 12px;
+}
+
+.videos .col-md-3 {
+  min-height: 280px;
+}
 
 ul#all-tags li {
-    margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 
 .highlight {
-    padding: 9px 14px;
-    margin-bottom: 14px;
-    background-color: #f7f7f9;
-    border: 1px solid #e1e1e8;
-    border-radius: 2px;
+  padding: 9px 14px;
+  margin-bottom: 14px;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+  border-radius: 2px;
 }
 
 /**
  * Banner
  */
- .banner {
+.banner {
   position: relative;
   /*overflow: hidden; */
 }
@@ -204,8 +251,8 @@ a.banner-link {
 }
 
 .title-header {
-    background: rgba(238,128,43,1);
-    color: #fff;
+  background: rgba(238, 128, 43, 1);
+  color: #fff;
 }
 
 h1.page-title {
@@ -217,46 +264,59 @@ h1.page-title {
   padding-top: 1.5rem;
 }
 
-.fluid-container .container .row {padding-left: 15px; padding-right: 15px;}
-
-footer {background: rgba(238, 128, 43, 1); color: #ffffff; padding: 80px 0px 60px 0px; margin-top: 30px;}
-
-footer a:link, footer a:visited {
-    color: #ffffff;
+.fluid-container .container .row {
+  padding-left: 15px;
+  padding-right: 15px;
 }
-footer a:link:hover, footer a:visited:hover {
+
+footer {
+  background: rgba(238, 128, 43, 1);
+  color: #ffffff;
+  padding: 80px 0px 60px 0px;
+  margin-top: 30px;
+}
+
+footer a:link,
+footer a:visited {
+  color: #ffffff;
+}
+footer a:link:hover,
+footer a:visited:hover {
   color: #006180;
 }
-footer .fa {padding: 2px;}
+footer .fa {
+  padding: 2px;
+}
 
-footer .fa-inverse { color: #EB7E32;}
+footer .fa-inverse {
+  color: #eb7e32;
+}
 
 .fa-stack {
-    margin-right: 6px;
-    position: relative;
+  margin-right: 6px;
+  position: relative;
 }
 
 h2 .fa-stack {
-    margin-top: -14px;
+  margin-top: -14px;
 }
 
-h2 .fa {padding-right: 10px;}
+h2 .fa {
+  padding-right: 10px;
+}
 
 .fa-top {
-    top: 6px;
-    color: #EB7E32;
-    padding-left: 4px;
+  top: 6px;
+  color: #eb7e32;
+  padding-left: 4px;
 }
 
 .fa-bottom {
   color: #eeeeee;
 }
 
-
-
 @media (min-width: 768px) {
   .banner-slide {
     font-size: 3em;
   }
-} 
-
+}
