@@ -1,0 +1,28 @@
+/* Utilities */
+.flex {
+  display: flex;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-grey-light {
+  background: #e3e7e8;
+}
+
+.bg-grey-dark {
+  background: #3f4856;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.bold {
+  font-weight: 700;
+}
