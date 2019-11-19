@@ -1,0 +1,25 @@
+label {
+  display: block;
+  font-size: .6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin: 0.5rem 0 0.125rem;
+}
+
+.btn {
+  margin: .5rem 0;
+  padding: .25rem .5rem;
+  border-radius: 0.125rem;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #1c7fe8;
+}
+
+.btn-primary:hover {
+  background: #004fa4;
+}
