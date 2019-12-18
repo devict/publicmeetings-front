@@ -1,3 +1,7 @@
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 /* Utilities */
 .flex {
   display: flex;

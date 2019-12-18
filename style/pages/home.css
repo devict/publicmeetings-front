@@ -1,16 +1,17 @@
 .call-to-action {
   text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+  padding: 0 1rem;
 }
 
 .call-to-action h1 {
-  font-size: 3rem;
+  font-size: calc(1.5rem + 2vw);
   font-weight: 900;
 }
 
 .call-to-action p {
   margin-top: 1rem;
   margin-bottom: 1.5rem;
-  font-size: 1.5rem;
+  font-size: calc(1rem + 0.75vw);
   font-weight: 700;
 }
 
@@ -28,7 +29,7 @@
 
 
 .about {
-  background: url('../images/seats.jpg');
+  background: url('../../images/seats.jpg');
   background-position: center;
   background-size: cover;
   color: white;
