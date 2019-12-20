@@ -7,6 +7,14 @@
   background: #fff;
 }
 
+.text-red-light {
+  color: #EB9196;
+}
+
+.text-sm {
+  font-size: 0.75rem;
+}
+
 .bg-grey-light {
   background: #e3e7e8;
 }
