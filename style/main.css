@@ -1,6 +1,7 @@
 @import './normalize.css';
 @import './header.css';
-/* @import './forms.css'; */
+/* @import './components/forms.css'; */
+@import './components/schedule.css';
 @import './utilities.css';
 
 /* 
@@ -12,13 +13,13 @@ html, body {
 }
 
 body {
-  color: #3f4856;
+  color: #5B727B;
   font-family: 'Montserrat', sans-serif;
   line-height: 1.2;
 }
 
 a {
-  color: #004fa4;
+  color: #008CC8;
 }
 
 a.back {
@@ -46,7 +47,7 @@ p {
 .container {
   max-width: 980px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 /* Components */

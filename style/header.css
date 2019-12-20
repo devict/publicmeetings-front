@@ -4,7 +4,7 @@ header {
   background: url('../images/courthouse.jpg');
   background-position: center;
   background-size: cover;
-  height: 460px;
+  height: 25rem;
   overflow: hidden;
   text-align: center;
 }
@@ -14,7 +14,7 @@ header {
   bottom: -90%;
   border-radius: 50%;
   position: absolute;
-  height: 460px;
+  height: 25rem;
   background: #fff;
   left: -50%;
 }
