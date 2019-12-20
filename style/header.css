@@ -1,0 +1,38 @@
+header {
+  color: #fff;
+  position: relative;
+  background: url('../images/courthouse.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 460px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.shape {
+  width: 200%;
+  bottom: -90%;
+  border-radius: 50%;
+  position: absolute;
+  height: 460px;
+  background: #fff;
+  left: -50%;
+}
+
+nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 4rem;
+}
+
+a.login {
+  color: #fff;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2;
+}

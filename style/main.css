@@ -1,0 +1,86 @@
+@import './normalize.css';
+@import './header.css';
+/* @import './forms.css'; */
+@import './utilities.css';
+
+/* 
+light-grey: #e3e7e8
+*/
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #3f4856;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+}
+
+a {
+  color: #004fa4;
+}
+
+a.back {
+  display: inline-block;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2;
+  margin-top: 1rem;
+}
+
+h1 {
+  margin: 0
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: .75rem;
+}
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Components */
+.card {
+  padding: 1rem;
+  margin: 2rem 0 0;
+  background: #fff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.25rem;
+  min-height: 4rem;
+}
+.card-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  background: #870008;
+  padding: 1rem 2rem;
+  font-size: 0.5rem;
+}
+
+/* Grid */
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.col-2-container {
+  margin: 1rem -0.5rem 0;
+}
+.col-2 {
+  margin: 0 0.5rem;
+}
