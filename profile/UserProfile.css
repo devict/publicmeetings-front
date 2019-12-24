@@ -1,0 +1,52 @@
+.top_bar {
+  width: 100%;
+
+  height: 40px;
+  background-color: #008CC8;
+  border-bottom: 5px solid #008CC8;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+	position: absolute;
+	z-index: 10;
+
+}
+
+.blue_box {
+position: absolute;
+width: 1440px;
+left: 0px;
+background: #015579;
+padding: 2em;
+margin: 0;
+}
+
+nav {
+  float: right;
+  right: 1px;
+  position: absolute;
+  margin: 10px;
+}
+
+nav a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.login {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  width: 1440px;
+  height: 48px;
+  left: 0px;
+  top: 1257px;
+  color: white;
+
+  background: #870008;
+}
