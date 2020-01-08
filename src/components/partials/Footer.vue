@@ -6,5 +6,11 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
+footer {
+  text-align: center;
+  background: #870008;
+  padding: 1rem 2rem;
+  font-size: 0.5rem;
+}
 </style>

@@ -21,5 +21,53 @@ export default {}
 </script>
 
 <style scoped>
-@import '../../assets/style/pages/home.css';
+header {
+  color: #fff;
+  position: relative;
+  background: url('../../assets/images/courthouse.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.call-to-action {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 0 1rem;
+}
+
+.call-to-action h1 {
+  font-size: calc(1.5rem + 2vw);
+  font-weight: 900;
+}
+
+.call-to-action p {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: calc(1rem + 0.75vw);
+  font-weight: 700;
+}
+
+.signup {
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.75rem 3rem;
+}
+
+.shape {
+  width: 200%;
+  bottom: -90%;
+  border-radius: 50%;
+  position: absolute;
+  height: 25rem;
+  background: #fff;
+  left: -50%;
+}
 </style>
