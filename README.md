@@ -1,13 +1,24 @@
-Readme
+# meeting-vue
 
-#General
+## Project setup
+```
+npm install
+```
 
-This application will be built using Bootstrap 4 & VueJS 3.
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-#Pages
+### Compiles and minifies for production
+```
+npm run build
+```
 
-- Home (index)
-- Meeting Schedule
-- Organization Profile
-- Sign In/Registration
-- Users
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,12 +1,7 @@
 @import './normalize.css';
 @import './header.css';
-/* @import './components/forms.css'; */
-@import './components/schedule.css';
 @import './utilities.css';
-
-/* 
-light-grey: #e3e7e8
-*/
+/* @import './components/forms.css'; */
 
 html, body {
   height: 100%;
@@ -44,37 +39,14 @@ p {
   margin-top: 0;
   margin-bottom: .75rem;
 }
+
 .container {
   max-width: 980px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
-/* Components */
-.card {
-  padding: 1rem;
-  margin: 2rem 0 0;
-  background: #fff;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  border-radius: 0.25rem;
-  min-height: 4rem;
-}
-.card-title {
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  padding-bottom: 0.5rem;
-}
-
-footer {
-  text-align: center;
-  background: #870008;
-  padding: 1rem 2rem;
-  font-size: 0.5rem;
-}
-
 /* Grid */
-
 .w-1\/2 {
   width: 50%;
 }
