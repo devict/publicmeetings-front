@@ -4,12 +4,26 @@
       <a href="/">
         <img class="logo" src="../../assets/images/logo.svg" />
       </a>
-      <a href="/login" class="login">Login</a>
       <!-- Added code for sidebar/menu (Jacob.Jordan) -->
-      <a href="#" class="show-sidebar" title="Toggle sidebar">
-      <span class="bar-1"></span>
-      <span class="bar-2"></span>
-      <span class="bar-3"></span></a>
+
+
+      <div class="show-sidebar">
+        <input type="checkbox"/>
+
+        <span class="bar-1"></span>
+        <span class="bar-2"></span>
+        <span class="bar-3"></span>
+
+        <ul id="menu">
+          <a href="#"><li>Login</li></a>
+          <a href="#"><li>Election Schedule</li></a>
+          <a href="#"><li>Voter Registration</li></a>
+        </ul>
+        <a href="javascript:void(0);" class="icon"
+        onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     </nav>
     <div class="call-to-action container">
       <h1>Local Meetings. Stay Informed.</h1>
@@ -21,14 +35,17 @@
 </template>
 
 <script>
-// Toggle the sidebar on and off
-	// ( '.show-sidebar' ).on( 'click', function( e ) {
-	// 	e.preventDefault();
-	// 	( '.show-sidebar' ).toggleClass( 'close-icon' );
-	// 	( '.sidebar-primary' ).toggleClass( 'sidebar-on' ).animate( { scrollTop: 0 }, 200 );
-	// 	( 'body' ).toggleClass( 'sidebar-on' );
-	// });
+// Script to display and hide menu, NEEDS WORK
+// function myFunction() {
+//   var x = document.getElementById("menu");
+//   if (x.style.display === "block") {
+//     x.style.display = "none";
+//   } else {
+//     x.style.display = "block";
+//   }
+// }
 export default {}
+
 </script>
 
 <style scoped>
