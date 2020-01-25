@@ -7,6 +7,7 @@ nav {
 
 .logo {
   height: 4rem;
+  
 }
 
 a.login {
@@ -14,4 +15,31 @@ a.login {
   font-size: .75rem;
   text-transform: uppercase;
   letter-spacing: 1.2;
+  margin-right: 4rem;
 }
+
+/* Added code for sidebar (Jacob.Jordan) */
+.show-sidebar {
+  width: 20px;
+  height: 20px;
+  background: rgb(135, 15, 23);
+  border-radius: 0 0 0 4px;
+  padding: 11px 10px 7px 10px;
+  overflow: hidden;
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.show-sidebar span {
+  width: 20px;
+  height: 4px;
+  border-radius: 1px;
+  margin-bottom: 3px;
+  display: block;
+  background: #fff;
+  transition: all .2s ease-in-out;
+}
+/* Added code for sidebar (Jacob.Jordan) */

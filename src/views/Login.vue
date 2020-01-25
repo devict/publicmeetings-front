@@ -67,7 +67,8 @@ a {
 
 #container {
   display: block;
-  align: center;
+  /* Showing Unknown Property, changed from 'align:' to 'align-content' (Jacob.Jordan)*/
+  align-content: center;
   margin: 0 auto;
 }
 

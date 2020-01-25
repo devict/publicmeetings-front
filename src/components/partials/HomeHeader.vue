@@ -4,9 +4,13 @@
       <a href="/">
         <img class="logo" src="../../assets/images/logo.svg" />
       </a>
-      <a href="#" class="login">Login</a>
+      <a href="/login" class="login">Login</a>
+      <!-- Added code for sidebar/menu (Jacob.Jordan) -->
+      <a href="#" class="show-sidebar" title="Toggle sidebar">
+      <span class="bar-1"></span>
+      <span class="bar-2"></span>
+      <span class="bar-3"></span></a>
     </nav>
-
     <div class="call-to-action container">
       <h1>Local Meetings. Stay Informed.</h1>
       <p>Sign-up to receive alerts, set reminders, and more</p>
@@ -17,6 +21,13 @@
 </template>
 
 <script>
+// Toggle the sidebar on and off
+	// ( '.show-sidebar' ).on( 'click', function( e ) {
+	// 	e.preventDefault();
+	// 	( '.show-sidebar' ).toggleClass( 'close-icon' );
+	// 	( '.sidebar-primary' ).toggleClass( 'sidebar-on' ).animate( { scrollTop: 0 }, 200 );
+	// 	( 'body' ).toggleClass( 'sidebar-on' );
+	// });
 export default {}
 </script>
 
@@ -71,3 +82,7 @@ header {
   left: -50%;
 }
 </style>
+
+
+
+
