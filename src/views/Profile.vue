@@ -1,7 +1,5 @@
-import GenericHeader from '@/components/partials/GenericHeader';
 <template>
   <div>
-    <GenericHeader />
     <div class="user-profile">
       <div class="container">
         <h1>User Name</h1>
@@ -45,12 +43,7 @@ import GenericHeader from '@/components/partials/GenericHeader';
 </template>
 
 <script>
-import GenericHeader from '@/components/partials/GenericHeader.vue'
-export default {
-  components: {
-    GenericHeader
-  }
-}
+export default {}
 </script>
 
 <style>

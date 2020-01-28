@@ -1,7 +1,6 @@
 <template>
-  <div class="schedule">
+  <div class="schedule mx-auto">
     <h2>Upcoming Meetings</h2>
-    <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
     <div class="schedule-items">
       <div class="schedule-item">
         <div class="date">
