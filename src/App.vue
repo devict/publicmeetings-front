@@ -1,26 +1,23 @@
 <template>
-  <div id="app">
-    <router-view class="router-view" />
+  <div id="app" class="h-full flex flex-col">
+    <header v-if="$route.name !== 'home'">
+      <Navbar class="bg-blue-std" />
+    </header>
+    <router-view class="flex-1" />
     <Footer />
   </div>
 </template>
 <script>
+import Navbar from '@/components/partials/Navbar.vue'
 import Footer from '@/components/partials/Footer.vue'
 
 export default {
   components: {
+    Navbar,
     Footer
   }
 }
 </script>
 <style>
-@import './assets/style/main.css';
-#app {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.router-view {
-  flex: 1 1 0%;
-}
+@import './assets/style/tailwind.css';
 </style>
