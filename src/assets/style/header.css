@@ -7,23 +7,57 @@ nav {
 
 .logo {
   height: 4rem;
-  
 }
 
-/* a.login {
+a.login {
   color: #fff;
   font-size: .75rem;
   text-transform: uppercase;
   letter-spacing: 1.2;
   margin-right: 4rem;
-} */
+}
 
-.show-sidebar
+#menu {
+  display: flex;
+  
+}
+
+ul#menu {
+  list-style-type: none;
+  
+}
+
+li#menu {
+  text-decoration-line: none;
+  padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .show-sidebar
 {
   display: block;
   position: relative;
   top: 5px;
-  /* left: 100px; */
+  /* left: 100px; 
   
   z-index: 1;
   
@@ -56,15 +90,15 @@ nav {
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0; /* hide this 
+  z-index: 2; /* and place it over the hamburger 
   
   -webkit-touch-callout: none;
 }
 
 /*
  Just a quick hamburger
- */
+ 
 .show-sidebar span
 {
   display: block;
@@ -98,7 +132,7 @@ nav {
 /* 
  Transform all the slices of hamburger
  into a crossmark.
- */
+ 
 .show-sidebar input:checked ~ span
 {
   opacity: 1;
@@ -108,7 +142,7 @@ nav {
 
 /*
  But let's hide the middle one.
- */
+ 
 .show-sidebar input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
@@ -117,7 +151,7 @@ nav {
 
 /*
  Oh yeah and the last one should go the other direction
- */
+ 
 .show-sidebar input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
@@ -126,7 +160,7 @@ nav {
 /*
   Make this absolute positioned
   at the top left of the screen
- */
+ 
 #menu
 {
   position: absolute;
@@ -138,7 +172,7 @@ nav {
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
+  /* to stop flickering of text in safari 
   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -154,11 +188,11 @@ nav {
 
 /*
   And let's slide it in from the left
- */
+ 
 .show-sidebar input:checked ~ ul
 {
   transform: none;
-}
+} */
 
 /* Added code for sidebar (Jacob.Jordan)
 .show-sidebar {

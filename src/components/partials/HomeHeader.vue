@@ -4,25 +4,14 @@
       <a href="/">
         <img class="logo" src="../../assets/images/logo.svg" />
       </a>
-      <!-- Added code for sidebar/menu (Jacob.Jordan) -->
+      <!-- Not going with the hamburger menu button for now, switching back to simple links (Jacob.Jordan) -->
 
-
-      <div class="show-sidebar">
-        <input type="checkbox"/>
-
-        <span class="bar-1"></span>
-        <span class="bar-2"></span>
-        <span class="bar-3"></span>
-
+      <div class="menu-container">
         <ul id="menu">
           <a href="#"><li>Login</li></a>
           <a href="#"><li>Election Schedule</li></a>
           <a href="#"><li>Voter Registration</li></a>
         </ul>
-        <a href="javascript:void(0);" class="icon"
-        onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
       </div>
     </nav>
     <div class="call-to-action container">
@@ -35,17 +24,19 @@
 </template>
 
 <script>
-// Script to display and hide menu, NEEDS WORK
-// function myFunction() {
-//   var x = document.getElementById("menu");
-//   if (x.style.display === "block") {
-//     x.style.display = "none";
-//   } else {
-//     x.style.display = "block";
-//   }
-// }
 export default {}
 
+// Script to display and hide menu, NEEDS WORK
+// new Vue({
+// methods: {
+//   function (myFunction) {
+//   var x = document.getElementById("menu")
+//   if (x.style.display === "block") {
+//     x.style.display = "none"
+//   } else {
+//     x.style.display = "block"
+//   }
+// })
 </script>
 
 <style scoped>
