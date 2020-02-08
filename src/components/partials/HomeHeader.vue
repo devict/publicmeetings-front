@@ -7,7 +7,7 @@
       <!-- Not going with the hamburger menu button for now, switching back to simple links (Jacob.Jordan) -->
 
       <div class="menu-container">
-        <ul id="menu">
+        <ul class="menu">
           <a href="#"><li>Login</li></a>
           <a href="#"><li>Election Schedule</li></a>
           <a href="#"><li>Voter Registration</li></a>
@@ -25,18 +25,6 @@
 
 <script>
 export default {}
-
-// Script to display and hide menu, NEEDS WORK
-// new Vue({
-// methods: {
-//   function (myFunction) {
-//   var x = document.getElementById("menu")
-//   if (x.style.display === "block") {
-//     x.style.display = "none"
-//   } else {
-//     x.style.display = "block"
-//   }
-// })
 </script>
 
 <style scoped>
@@ -49,6 +37,21 @@ header {
   height: 25rem;
   overflow: hidden;
   text-align: center;
+}
+
+.menu-container {
+  display: flex;
+}
+
+ul.menu {
+  list-style-type: none;
+}
+
+li.menu {
+  color: #fff;
+}
+a {
+  color: #fff;
 }
 
 .call-to-action {
